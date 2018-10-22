@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
+  line-height: 1.5;
+  font: "georgia", sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,6 +10,14 @@ html {
 
 .link-card {
   display: block;
+  border: 3px solid #9a816d;
+  width: 100%;
+  max-width: 22em;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+  text-decoration: none;
+  margin: 1rem;
+  padding: .4rem 1rem;
 }
 
 .link-card:hover {
@@ -18,9 +27,33 @@ html {
 }
 
 .link-card:hover .btn{
-  background-color: #333;
+  background-color: #512200;
+  border: 3px solid #512200;
 }
 
 .btn {
-  border: 3px solid black;
+  border: 3px solid #785439;
+  border-radius: 8px;
+  background-color: #785439;
+  color: white;
+  padding: .5em;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+  color: #512200;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  color: #512200;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+div {
+  text-align: center;
 }
