@@ -7,8 +7,14 @@ html {
   box-sizing: inherit;
 }
 
-a {
+.link-card {
   display: block;
+}
+
+.link-card:hover {
+  background-color: #785439;
+  border-color: #cabdb2;
+  color: #512200;
 }
 
 .link-card:hover .btn{
