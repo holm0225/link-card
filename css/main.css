@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font: "georgia", sans-serif;
 }
 
 *, *::before, *::after {
@@ -12,12 +11,12 @@ html {
   display: block;
   border: 3px solid #9a816d;
   width: 100%;
-  max-width: 22em;
+  max-width: 20em;
   border-radius: 8px;
   background-color: #dcd4cd;
   text-decoration: none;
   margin: 1rem;
-  padding: .4rem 1rem;
+  padding: 0 1rem;
 }
 
 .link-card:hover {
@@ -26,7 +25,7 @@ html {
   color: #512200;
 }
 
-.link-card:hover .btn{
+.link-card:hover .btn {
   background-color: #512200;
   border: 3px solid #512200;
 }
@@ -35,26 +34,43 @@ html {
   border: 3px solid #785439;
   border-radius: 8px;
   background-color: #785439;
-  color: white;
+  color: #f0eee8;
   padding: .5em;
   font-weight: bold;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
-h2 {
+.link-card h2 {
   color: #512200;
-  font-family: 'Dosis', sans-serif;
-  font-weight: 600;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
 }
 
 p {
   color: #512200;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: bold;
   text-align: left;
 }
 
 div {
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1.5rem 0;
+}
+
+dl {
+  list-style-type: none;
+  border-bottom: 2px solid #9a816d;
+  border-top: 2px solid #9a816d;
+  padding: 1em 0;
+  font-family: Georgia, sans-serif;
+  display: inline-block;
+}
+
+.first {
+  text-align: left;
+}
+
+.second {
+  text-align: right;
 }
