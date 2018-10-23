@@ -15,7 +15,7 @@ html {
   border-radius: 8px;
   background-color: #dcd4cd;
   text-decoration: none;
-  margin: 1rem;
+  margin: 0;
   padding: 0 1rem;
 }
 
@@ -37,19 +37,18 @@ html {
   color: #f0eee8;
   padding: .5em;
   font-weight: bold;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
 .link-card h2 {
   color: #512200;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-weight: bold;
 }
 
 p {
   color: #512200;
   font-size: 1.125rem;
-  font-weight: bold;
   text-align: left;
 }
 
@@ -65,12 +64,17 @@ dl {
   padding: 1em 0;
   font-family: Georgia, sans-serif;
   display: inline-block;
+  width: 17em;
 }
 
 .first {
   text-align: left;
+  color: #785439;
+  font-size: .875rem;
 }
 
 .second {
-  text-align: right;
+  text-align: center;
+  color: #785439;
+  font-size: .875rem;
 }
