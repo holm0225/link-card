@@ -13,12 +13,13 @@ body {
 
 .link-card {
   display: block;
-  border: 2px 3px solid #9a816d;
+  border: 3px solid #9a816d;
   width: 100%;
   border-color: #9a816d;
   max-width: 20em;
   border-radius: 8px;
   background-color: #dcd4cd;
+  margin: 1rem;
 }
 
 .link-card:hover {
@@ -55,6 +56,8 @@ p {
   color: #512200;
   font-size: 1.125rem;
   margin: 1em;
+  border-bottom: 2px solid #9a816d;
+  padding-bottom: 1em;
 }
 
 div {
@@ -65,16 +68,13 @@ div {
 div:nth-child(4) {
   text-align: center;
 }
-]
 
 dl {
   list-style-type: none;
   border-bottom: 2px solid #9a816d;
-  border-top: 2px solid #9a816d;
   padding: 0;
   padding-bottom: 1em;
   font-family: Georgia, sans-serif;
-  display: inline-block;
   width: 17em;
   color: #512200;
   margin: 1em;
