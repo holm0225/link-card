@@ -19,7 +19,7 @@ body {
   max-width: 20em;
   border-radius: 8px;
   background-color: #dcd4cd;
-  margin: 1rem;
+  margin: 0;
 }
 
 .link-card:hover {
@@ -54,10 +54,11 @@ body {
 
 p {
   color: #512200;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 1em;
   border-bottom: 2px solid #9a816d;
   padding-bottom: 1em;
+  font-family: Georgia, sans-serif;
 }
 
 div {
@@ -78,7 +79,7 @@ dl {
   width: 17em;
   color: #512200;
   margin: 1em;
-  font-size: .875;
+  font-size: .875rem;
 }
 
 .first {
